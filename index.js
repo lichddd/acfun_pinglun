@@ -4,10 +4,6 @@ import fs from 'fs'
 import getlist from './app/getlist'
 import getcomment from './app/getcomment'
 
-
-
-
-
 getl();
 async function getl() {
   var list = await getlist("http://search.aixifan.com/search?q=%E5%90%8C%E6%80%A7&pageSize=999999&parentChannelId=63&sortField=releaseDate");
